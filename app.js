@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 import { orders } from "./orders.js";
 
-const connectionString = "mongodb://127.0.0.1:27017";
+const connectionString = "mongodb+srv://jueprt:jueprt_db_password@cluster0.eh8irbs.mongodb.net/";
 
 console.log("------- Start connecting to MongDB -------");
 export const client = new MongoClient(connectionString, {
